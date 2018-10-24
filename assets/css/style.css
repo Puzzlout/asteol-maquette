@@ -4325,3 +4325,21 @@ p > object:only-child {
 		padding: 0;
 	}
 }
+
+/* Custom CSS */
+.c-img-group {
+	display: flex;
+	width: 100%;
+}
+.c-img-group figure {
+	text-align: center;
+	flex-grow: 1;
+}
+.c-img-group figure img {
+	height: 16em;
+	padding: 1em;
+}
+.c-img-group figcaption {
+	font-style: italic;
+	font-weight: 600;
+}
